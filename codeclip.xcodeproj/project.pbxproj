@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		532AF18EDA22FFE1C07C1930 /* Pods_codeclip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3900D5CF9AAEB6AD6EB1A4 /* Pods_codeclip.framework */; };
+		AA1BBFCA25428C8C00477B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1BBFC825428C8C00477B7B /* Main.storyboard */; };
+		AA1BBFCD25428D8200477B7B /* String+toString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1BBFCC25428D8200477B7B /* String+toString.swift */; };
+		AA1BBFD92542DA3400477B7B /* ClipboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1BBFD82542DA3400477B7B /* ClipboardHelper.swift */; };
+		AA1BBFDC2542DAA100477B7B /* AuthenticationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1BBFDB2542DAA100477B7B /* AuthenticationHelper.swift */; };
+		AAECA5492540E5F60095FFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAECA5482540E5F60095FFBB /* AppDelegate.swift */; };
+		AAECA54D2540E5F70095FFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAECA54C2540E5F70095FFBB /* Assets.xcassets */; };
+		AAECA5502540E5F70095FFBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAECA54F2540E5F70095FFBB /* Preview Assets.xcassets */; };
+		AAECA55D2540EE480095FFBB /* Gist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAECA55C2540EE480095FFBB /* Gist.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3900D5CF9AAEB6AD6EB1A4 /* Pods_codeclip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codeclip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1BBFC925428C8C00477B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA1BBFCC25428D8200477B7B /* String+toString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+toString.swift"; sourceTree = "<group>"; };
+		AA1BBFD82542DA3400477B7B /* ClipboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHelper.swift; sourceTree = "<group>"; };
+		AA1BBFDB2542DAA100477B7B /* AuthenticationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHelper.swift; sourceTree = "<group>"; };
+		AAECA5452540E5F60095FFBB /* codeclip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codeclip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAECA5482540E5F60095FFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAECA54C2540E5F70095FFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAECA54F2540E5F70095FFBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAECA5542540E5F70095FFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAECA5552540E5F70095FFBB /* codeclip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = codeclip.entitlements; sourceTree = "<group>"; };
+		AAECA55C2540EE480095FFBB /* Gist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gist.swift; sourceTree = "<group>"; };
+		B686004D06E2D6F7CBE6061B /* Pods-codeclip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeclip.release.xcconfig"; path = "Target Support Files/Pods-codeclip/Pods-codeclip.release.xcconfig"; sourceTree = "<group>"; };
+		E024ED19009166F564FFB3DF /* Pods-codeclip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeclip.debug.xcconfig"; path = "Target Support Files/Pods-codeclip/Pods-codeclip.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAECA5422540E5F60095FFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532AF18EDA22FFE1C07C1930 /* Pods_codeclip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6821423FC43B581B2AB4CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C3900D5CF9AAEB6AD6EB1A4 /* Pods_codeclip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAECA53C2540E5F60095FFBB = {
+			isa = PBXGroup;
+			children = (
+				AAECA5472540E5F60095FFBB /* codeclip */,
+				AAECA5462540E5F60095FFBB /* Products */,
+				D1DBF2A6F3F05C7393B14888 /* Pods */,
+				2A6821423FC43B581B2AB4CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAECA5462540E5F60095FFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAECA5452540E5F60095FFBB /* codeclip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAECA5472540E5F60095FFBB /* codeclip */ = {
+			isa = PBXGroup;
+			children = (
+				AAECA5482540E5F60095FFBB /* AppDelegate.swift */,
+				AA1BBFDB2542DAA100477B7B /* AuthenticationHelper.swift */,
+				AA1BBFD82542DA3400477B7B /* ClipboardHelper.swift */,
+				AAECA55C2540EE480095FFBB /* Gist.swift */,
+				AA1BBFCC25428D8200477B7B /* String+toString.swift */,
+				AAECA54C2540E5F70095FFBB /* Assets.xcassets */,
+				AA1BBFC825428C8C00477B7B /* Main.storyboard */,
+				AAECA5542540E5F70095FFBB /* Info.plist */,
+				AAECA5552540E5F70095FFBB /* codeclip.entitlements */,
+				AAECA54E2540E5F70095FFBB /* Preview Content */,
+			);
+			path = codeclip;
+			sourceTree = "<group>";
+		};
+		AAECA54E2540E5F70095FFBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAECA54F2540E5F70095FFBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1DBF2A6F3F05C7393B14888 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E024ED19009166F564FFB3DF /* Pods-codeclip.debug.xcconfig */,
+				B686004D06E2D6F7CBE6061B /* Pods-codeclip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAECA5442540E5F60095FFBB /* codeclip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAECA5582540E5F70095FFBB /* Build configuration list for PBXNativeTarget "codeclip" */;
+			buildPhases = (
+				B43E68DD902F73CD81FA2864 /* [CP] Check Pods Manifest.lock */,
+				AAECA5412540E5F60095FFBB /* Sources */,
+				AAECA5422540E5F60095FFBB /* Frameworks */,
+				AAECA5432540E5F60095FFBB /* Resources */,
+				7ADA1DCEDF3589337093B9D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = codeclip;
+			productName = "gist-copy";
+			productReference = AAECA5452540E5F60095FFBB /* codeclip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAECA53D2540E5F60095FFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					AAECA5442540E5F60095FFBB = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = AAECA5402540E5F60095FFBB /* Build configuration list for PBXProject "codeclip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAECA53C2540E5F60095FFBB;
+			productRefGroup = AAECA5462540E5F60095FFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAECA5442540E5F60095FFBB /* codeclip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAECA5432540E5F60095FFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1BBFCA25428C8C00477B7B /* Main.storyboard in Resources */,
+				AAECA5502540E5F70095FFBB /* Preview Assets.xcassets in Resources */,
+				AAECA54D2540E5F70095FFBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7ADA1DCEDF3589337093B9D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codeclip/Pods-codeclip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codeclip/Pods-codeclip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-codeclip/Pods-codeclip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B43E68DD902F73CD81FA2864 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-codeclip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAECA5412540E5F60095FFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1BBFD92542DA3400477B7B /* ClipboardHelper.swift in Sources */,
+				AA1BBFDC2542DAA100477B7B /* AuthenticationHelper.swift in Sources */,
+				AAECA5492540E5F60095FFBB /* AppDelegate.swift in Sources */,
+				AA1BBFCD25428D8200477B7B /* String+toString.swift in Sources */,
+				AAECA55D2540EE480095FFBB /* Gist.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA1BBFC825428C8C00477B7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1BBFC925428C8C00477B7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAECA5562540E5F70095FFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAECA5572540E5F70095FFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AAECA5592540E5F70095FFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E024ED19009166F564FFB3DF /* Pods-codeclip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = codeclip/codeclip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"codeclip/Preview Content\"";
+				DEVELOPMENT_TEAM = 548WFM9WB6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = codeclip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = kosmos.codeclip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AAECA55A2540E5F70095FFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B686004D06E2D6F7CBE6061B /* Pods-codeclip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = codeclip/codeclip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"codeclip/Preview Content\"";
+				DEVELOPMENT_TEAM = 548WFM9WB6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = codeclip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = kosmos.codeclip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAECA5402540E5F60095FFBB /* Build configuration list for PBXProject "codeclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAECA5562540E5F70095FFBB /* Debug */,
+				AAECA5572540E5F70095FFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAECA5582540E5F70095FFBB /* Build configuration list for PBXNativeTarget "codeclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAECA5592540E5F70095FFBB /* Debug */,
+				AAECA55A2540E5F70095FFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAECA53D2540E5F60095FFBB /* Project object */;
+}
