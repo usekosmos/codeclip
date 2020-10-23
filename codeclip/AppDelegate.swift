@@ -18,6 +18,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     private var userCode: String = "Retrieving code."
     private var verificationUri: String = "Retrieving verification URI."
     
+    private let helpUrl: String = "https://www.notion.so/unkrich/CodeClip-Help-60d255a5739d478a9db08a6cb2ea2aad"
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         if let button = statusItem.button {
             button.image = NSImage(named:NSImage.Name("codeclip-logo-menubar"))
@@ -72,12 +74,17 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menu.addItem(NSMenuItem(title: "You're authenticated.", action: nil, keyEquivalent: ""))
         menu.addItem(NSMenuItem(title: "Use CMD+OPT+G to create gists.", action: nil, keyEquivalent: ""))
         menu.addItem(NSMenuItem.separator())
-        menu.addItem(NSMenuItem(title: "Help", action: nil, keyEquivalent: "H"))
+        menu.addItem(NSMenuItem(title: "Help", action: #selector(openHelpLink), keyEquivalent: "H"))
         statusItem.menu = menu
         
         hotkey = HotKey(key: .g, modifiers: [.command, .option])
         hotkey?.keyDownHandler = {
             self.gist.create()
         }
+    }
+    
+    @objc func openHelpLink() {
+        let url = URL(string: helpUrl)!
+        NSWorkspace.shared.open(url)
     }
 }
